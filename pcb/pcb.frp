@@ -1,0 +1,200 @@
+.HEA
+.TIM 1/21/2018 8:09:17 PM
+.APP "Eeschema 4.0.7"
+
+.ADD_COM     U1     "TPIC6595"
+.ADD_COM     R9     "10K"
+.ADD_COM     C1     "0.1_uF"
+.ADD_COM     J1     "DIGIT_LL"
+.ADD_COM     J2     "ARDUINO"
+.ADD_COM     U2     "TPIC6595"
+.ADD_COM     C2     "0.1_uF"
+.ADD_COM     J3     "DIGIT_LR"
+.ADD_COM     R1     "10K"
+.ADD_COM     U3     "TPIC6595"
+.ADD_COM     R2     "10K"
+.ADD_COM     C3     "0.1_uF"
+.ADD_COM     J4     "DIGIT_RL"
+.ADD_COM     U4     "TPIC6595"
+.ADD_COM     C4     "0.1_uF"
+.ADD_COM     J5     "DIGIT_RR"
+.ADD_COM     R3     "10K"
+
+
+.ADD_TER   R2   2     "Net-(R2-Pad2)"
+.TER       U3   8
+
+.ADD_TER   U4   3     "Net-(U3-Pad18)"
+.TER       U3   18
+
+.ADD_TER   U4   12     "Net-(J2-Pad3)"
+.TER       U2   12
+            U3   12
+            U1   12
+            J2   3
+
+.ADD_TER   J2   1     "Net-(J2-Pad1)"
+.TER       U1   3
+
+.ADD_TER   U2   3     "Net-(U1-Pad18)"
+.TER       U1   18
+
+.ADD_TER   U2   13     "Net-(J2-Pad2)"
+.TER       U1   13
+            U4   13
+            U3   13
+            J2   2
+
+.ADD_TER   R9   2     "Net-(R9-Pad2)"
+.TER       U1   8
+
+.ADD_TER   U3   3     "Net-(U2-Pad18)"
+.TER       U2   18
+
+.ADD_TER   J5   6     "Net-(J5-Pad6)"
+.TER       U4   15
+
+.ADD_TER   J5   5     "Net-(J5-Pad5)"
+.TER       U4   14
+
+.ADD_TER   J5   4     "Net-(J5-Pad4)"
+.TER       U4   7
+
+.ADD_TER   U4   6     "Net-(J5-Pad3)"
+.TER       J5   3
+
+.ADD_TER   J5   2     "Net-(J5-Pad2)"
+.TER       U4   5
+
+.ADD_TER   U4   4     "Net-(J5-Pad1)"
+.TER       J5   1
+
+.ADD_TER   U4   16     "Net-(J5-Pad7)"
+.TER       J5   7
+
+.ADD_TER   J4   8     "Net-(J4-Pad8)"
+.TER       U3   17
+
+.ADD_TER   U3   16     "Net-(J4-Pad7)"
+.TER       J4   7
+
+.ADD_TER   U3   15     "Net-(J4-Pad6)"
+.TER       J4   6
+
+.ADD_TER   J4   5     "Net-(J4-Pad5)"
+.TER       U3   14
+
+.ADD_TER   J4   4     "Net-(J4-Pad4)"
+.TER       U3   7
+
+.ADD_TER   C3   2     "VCC"
+.TER       R2   1
+            R9   1
+            C1   2
+            R3   1
+            U1   2
+            U2   2
+            R1   1
+            U3   2
+            C2   2
+            C4   2
+            U4   2
+
+.ADD_TER   J5   8     "Net-(J5-Pad8)"
+.TER       U4   17
+
+.ADD_TER   U1   5     "Net-(J1-Pad2)"
+.TER       J1   2
+
+.ADD_TER   J1   1     "Net-(J1-Pad1)"
+.TER       U1   4
+
+.ADD_TER   U1   17     "Net-(J1-Pad8)"
+.TER       J1   8
+
+.ADD_TER   U1   6     "Net-(J1-Pad3)"
+.TER       J1   3
+
+.ADD_TER   C1   1     "GND"
+.TER       R1   2
+            U3   9
+            U3   19
+            C3   1
+            R3   2
+            U4   19
+            C4   1
+            U4   8
+            U4   9
+            U1   19
+            U2   9
+            U2   8
+            U2   19
+            C2   1
+            U1   9
+
+.ADD_TER   J1   4     "Net-(J1-Pad4)"
+.TER       U1   7
+
+.ADD_TER   U1   14     "Net-(J1-Pad5)"
+.TER       J1   5
+
+.ADD_TER   J1   6     "Net-(J1-Pad6)"
+.TER       U1   15
+
+.ADD_TER   J1   7     "Net-(J1-Pad7)"
+.TER       U1   16
+
+.ADD_TER   U2   4     "Net-(J3-Pad1)"
+.TER       J3   1
+
+.ADD_TER   U2   5     "Net-(J3-Pad2)"
+.TER       J3   2
+
+.ADD_TER   U2   6     "Net-(J3-Pad3)"
+.TER       J3   3
+
+.ADD_TER   U2   7     "Net-(J3-Pad4)"
+.TER       J3   4
+
+.ADD_TER   J3   5     "Net-(J3-Pad5)"
+.TER       U2   14
+
+.ADD_TER   J3   6     "Net-(J3-Pad6)"
+.TER       U2   15
+
+.ADD_TER   J3   7     "Net-(J3-Pad7)"
+.TER       U2   16
+
+.ADD_TER   U2   17     "Net-(J3-Pad8)"
+.TER       J3   8
+
+.ADD_TER   U3   4     "Net-(J4-Pad1)"
+.TER       J4   1
+
+.ADD_TER   J4   2     "Net-(J4-Pad2)"
+.TER       U3   5
+
+.ADD_TER   J4   3     "Net-(J4-Pad3)"
+.TER       U3   6
+
+.ADD_TER   U2   20     "Net-(U2-Pad1)"
+.TER       U2   1
+            U2   11
+            U2   10
+
+.ADD_TER   U1   1     "Net-(U1-Pad1)"
+.TER       U1   11
+            U1   20
+            U1   10
+
+.ADD_TER   U4   1     "Net-(U4-Pad1)"
+.TER       U4   10
+            U4   20
+            U4   11
+
+.ADD_TER   U3   11     "Net-(U3-Pad1)"
+.TER       U3   1
+            U3   20
+            U3   10
+
+.END
